@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk.Worker">
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>net5.0</TargetFramework>
         <UserSecretsId>dotnet-IqOptionApi.Samples-DA6CD46B-1B79-4794-96F1-72B38BB40680</UserSecretsId>
     </PropertyGroup>
 
@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\IqOptionApi.NET\IqOptionApi.NET.csproj" />
+      <ProjectReference Include="..\..\IQOption.NET\IQOption.NET.csproj" />
     </ItemGroup>
 
 </Project>
